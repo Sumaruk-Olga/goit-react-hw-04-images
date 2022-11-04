@@ -5,7 +5,7 @@ import { Searchbar } from "components/Searchbar/Searchbar";
 import { ImageGallery } from "components/ImageGallery/ImageGallery";
 import { LoadMoreBtn } from "components/LoadMoreBtn/LoadMoreBtn";
 import { searchImage } from "services/searchApi";
-import Modal from "components/Modal/Modal";
+import {Modal} from "components/Modal/Modal";
 import { LargeImage } from "components/LargeImage/LargeImage";
 import { Container } from "./App.styled";
 import { ErrorMessage } from "components/ErrorMessage/ErrorMessage";
