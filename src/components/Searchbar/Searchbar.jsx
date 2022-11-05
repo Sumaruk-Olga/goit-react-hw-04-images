@@ -6,7 +6,7 @@ import { PageTitle, StyledForm, SearchButton, StyledField } from './SearchBar.st
 export function Searchbar({onSubmit}) {
     return (<PageTitle>
 <Formik
-            initialValues={{ search: '' }}
+            initialValues={{ searchValue: '' }}
             onSubmit={(values, {resetForm}) => {
                 onSubmit(values);
                 resetForm();
@@ -18,7 +18,7 @@ export function Searchbar({onSubmit}) {
 
     <StyledField
         type="text"
-        name="search"
+        name="searchValue"
         autoComplete="off"
         autoFocus
         placeholder="Search images and photos"
